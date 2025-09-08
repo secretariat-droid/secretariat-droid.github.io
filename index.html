@@ -1,35 +1,29 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>NEHHDC Artisan Registry</title>
-  <!-- Tailwind (CDN) -->
+  <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="min-h-screen bg-slate-50">
-  <main class="max-w-3xl mx-auto px-4 py-16">
-    <h1 class="text-3xl font-bold text-center mb-8">NEHHDC Artisan Registry</h1>
+<body class="min-h-screen bg-slate-50 flex items-center justify-center">
+  <main class="max-w-xl mx-auto p-8 bg-white shadow-lg rounded-2xl">
+    <h1 class="text-3xl font-bold text-center mb-6">NEHHDC Artisan Registry</h1>
+    <p class="text-slate-600 text-center mb-8">
+      Register artisans in Handloom and Handicrafts across Northeast India.
+    </p>
 
-    <section class="bg-white shadow rounded-2xl p-8">
-      <h2 class="text-2xl font-extrabold">NEHHDC Artisan Registry</h2>
-      <p class="text-slate-600 mt-2">
-        Register artisans in Handloom and Handicrafts across Northeast India.
-      </p>
-
-      <div class="mt-6 flex flex-wrap gap-4">
-        <!-- TODO: change these hrefs to your real form URLs -->
-        <a href="handloom.html"
-           class="inline-flex items-center px-5 py-3 rounded-lg bg-blue-600 text-white font-medium hover:bg-blue-700">
-          Handloom Artisan Registration
-        </a>
-
-        <a href="handicraft.html"
-           class="inline-flex items-center px-5 py-3 rounded-lg bg-blue-600 text-white font-medium hover:bg-blue-700">
-          Handicraft Artisan Registration
-        </a>
-      </div>
-    </section>
+    <div class="flex flex-col gap-4">
+      <a href="handloom.html"
+         class="px-6 py-3 rounded-lg bg-blue-600 text-white text-center font-medium hover:bg-blue-700">
+        Handloom Artisan Registration
+      </a>
+      <a href="handicraft.html"
+         class="px-6 py-3 rounded-lg bg-green-600 text-white text-center font-medium hover:bg-green-700">
+        Handicraft Artisan Registration
+      </a>
+    </div>
   </main>
 </body>
 </html>
